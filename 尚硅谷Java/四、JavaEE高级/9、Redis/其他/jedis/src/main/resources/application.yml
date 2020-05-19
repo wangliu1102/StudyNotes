@@ -1,0 +1,30 @@
+#redis
+redis:
+  host: 127.0.0.1
+  port: 6379
+  password: ahhs2019
+  timeout: 2000
+  poolMaxTotal: 10
+  poolMaxIdle: 10
+  poolMaxWait: 3
+  db: 0
+
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: ahhs2019
+    timeout: 2000
+    jedis:
+      pool:
+        # 控制一个pool可分配多少个jedis实例，通过pool.getResource()来获取；如果赋值为-1，则表示不限制；如果pool已经分配了maxActive个jedis实例，则此时pool的状态为exhausted。
+        max-active: 10
+        # 控制一个pool最多有多少个状态为idle(空闲)的jedis实例；
+        max-idle: 10
+        # 控制一个pool最少有多少个状态为idle(空闲)的jedis实例
+        min-idle: 1
+        # 表示当borrow一个jedis实例时，最大的等待时间，如果超过等待时间，则直接抛JedisConnectionException；
+        max-wait: 3
+        # 表示idle object evitor两次扫描之间要sleep的毫秒数；
+        time-between-eviction-runs: 30000
+    database: 0
