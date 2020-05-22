@@ -1,0 +1,5 @@
+spring:
+  data:
+    elasticsearch:
+      cluster-name: ahhs6.5.4
+      cluster-nodes: 192.168.1.128:9300,192.168.1.129:9300,192.168.1.130:9300
