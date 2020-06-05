@@ -1896,7 +1896,7 @@ props: ['name', 'age', 'setName']
 
 3) 方式二: 指定名称和类型
 
-```json
+```js
 props: {
     name: String,
     age: Number,
@@ -1906,7 +1906,7 @@ props: {
 
 4) 方式三: 指定名称/类型/必要性/默认值
 
-```json
+```js
 props: {
     name:{type: String, required: true, default:xxx},
 }
