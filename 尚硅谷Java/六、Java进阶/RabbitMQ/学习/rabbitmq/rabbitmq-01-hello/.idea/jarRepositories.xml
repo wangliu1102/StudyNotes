@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="ab53f634-b7a5-4e24-9454-2b7becc981f2" />
+      <option name="name" value="ab53f634-b7a5-4e24-9454-2b7becc981f2" />
+      <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="94d7b1cd-5eaf-465c-bbba-ab934d30105d" />
+      <option name="name" value="94d7b1cd-5eaf-465c-bbba-ab934d30105d" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="3039b121-7e2a-4ad7-afb0-f9a21a28e69a" />
+      <option name="name" value="3039b121-7e2a-4ad7-afb0-f9a21a28e69a" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+  </component>
+</project>
